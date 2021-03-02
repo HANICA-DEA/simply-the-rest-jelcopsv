@@ -1,8 +1,8 @@
-package nl.han.oose.dea.rest.services;
+package nl.han.dea.services;
 
-import nl.han.oose.dea.rest.services.dto.ItemDTO;
-import nl.han.oose.dea.rest.services.exceptions.IdAlreadyInUseException;
-import nl.han.oose.dea.rest.services.exceptions.ItemNotAvailableException;
+import nl.han.dea.services.dto.ItemDTO;
+import nl.han.dea.services.exceptions.IdAlreadyInUseException;
+import nl.han.dea.services.exceptions.ItemNotAvailableException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,9 @@ public class ItemService {
         items.add(new ItemDTO(2, "Butter", new String[]{"Breakfast, Lunch"}, "Use it with bread"));
         items.add(new ItemDTO(3, "Honey", new String[]{"Breakfast, Lunch"}, "Use it with bread"));
     }
+    public static void main(String[] args){
 
+    }
     /**
      * Return the full {@link List} of {@link ItemDTO} instances.
      *

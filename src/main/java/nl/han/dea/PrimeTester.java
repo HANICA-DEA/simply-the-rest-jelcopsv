@@ -1,4 +1,6 @@
-package ???;
+package nl.han.dea;
+
+import org.apache.commons.math3.primes.Primes;
 
 public class PrimeTester {
 
@@ -20,7 +22,7 @@ public class PrimeTester {
                 break;
             }
 
-//            boolean isPrime = Primes.isPrime(number);
+            boolean isPrime = Primes.isPrime(number);
 
             if (isPrime) {
                 System.out.println(Thread.currentThread().getId() + " found a prime number: " + number);
